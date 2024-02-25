@@ -1,3 +1,4 @@
-import { sayHello } from './demo';
+import { buttonStartElement } from './dom';
+import { createTitle } from './questions-functions';
 
-sayHello();
+buttonStartElement.addEventListener('click', createTitle);
